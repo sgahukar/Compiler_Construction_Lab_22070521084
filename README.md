@@ -75,8 +75,6 @@ After successful completion of this lab, students will be able to:
 
 ---
 
-## ⚙️ How to Run the Programs
+> *This repository contains practical implementations from the Compiler Construction Lab course (T7478) using LEX and YACC.*
 
-### 1. Install Required Tools
-```bash
-sudo apt-get install flex bison
+---
