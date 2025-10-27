@@ -30,8 +30,9 @@ To study and write a theoretical assignment explaining the **structure, purpose*
 Together, LEX and YACC form a **compiler construction pipeline**:
 - LEX → breaks down input into tokens.
 - YACC → arranges these tokens as per defined grammar rules.
-
-###🔹 Structure of a LEX Program:
+  
+---
+### 🔹 Structure of a LEX Program:
 ```c
 %{
   // C declarations
@@ -40,8 +41,9 @@ Together, LEX and YACC form a **compiler construction pipeline**:
   // Rules
 %%
   // C main function
+```c
 
-###🔹 Structure of a LEX Program:
+### 🔹 Structure of a LEX Program:
 ```c
 %{
   // C declarations and header files
@@ -56,11 +58,3 @@ Together, LEX and YACC form a **compiler construction pipeline**:
 - Gained an understanding of how LEX and YACC automate the process of lexical and syntax analysis in compiler design.
 - Understood how to define tokens and grammar rules, and how they interact during compilation.
 - Learned that combining LEX and YACC simplifies the development of interpreters and compilers.
-
-### 🖼️ Screenshots
-
-#### 🔹 Code
-![Code Screenshot](home\suhami\CC\1_Theory_of_Lex_and_YACC\Screenshots\main.png)
-
-#### 🔹 Output
-![Output Screenshot](home\suhami\CC\1_Theory_of_Lex_and_YACC\Screenshots\output.png)
